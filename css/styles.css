@@ -1,0 +1,30 @@
+html{
+  text-align: center;
+}
+
+.nav-bar{
+  padding: 0.5em;
+  background-color: black;
+  font-size: 1.6em;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.nav-bar a{
+  padding: 0.5em;
+}
+body{
+  width: 100%;
+}
+.col-sm-6{
+  height: 35em;
+}
+#landing-right{
+  background-image: url("../images/assets/backgrounds/pizza1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#intro{
+  position: relative;
+  top: 40px;
+  text-align: justify;
+}
