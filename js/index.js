@@ -1,3 +1,4 @@
+// USER INTERFACE
 //pizza1
 $(document).ready(function () {
   $("#pizza1").hover(function () {
@@ -107,3 +108,6 @@ $(document).ready(function () {
 // end of corousel section
 
 
+// get user inputs.
+
+// BUSINESS LOGIC

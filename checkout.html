@@ -25,9 +25,9 @@
   <div class="container" style="position: relative; top: 85px;">
     <!-- navigation bar -->
     <div class="nav-bar justify-content-center fixed-top">
-      <a href="#home">Home</a>
-      <a href="#menu">Menu</a>
-      <a href="#checkout">Checkout</a>
+      <a href="./index.html">Home</a>
+      <a href="./index.html#menu">Menu</a>
+      <a href="../PizzaShop/checkout.html">Checkout</a>
 
     </div>
 
@@ -68,19 +68,32 @@
 
       <!-- Summary of Order/ Payment Options-->
       <div class="col-md-6">
-        
+
         <!-- summary of orders -->
         <div class="row">
+          <div class="col-md" style="background-color: yellow; margin-left: 2em; ">
+            <h3>These are your ordered items:<span id="ordered-items"></span></h3>
+            <ol style="display: none;" id="order-summary"></ol>
+          </div>
+        </div>
+        <br>
+        <!-- confirmation of order -->
+        <div class="row">
+
+          <div class="col-md" style="background-color: yellowgreen; margin-left: 2em; margin-top: 1em;">
+            <h3 style="margin-top: 1em; color: aliceblue;">Subtotal:<span id="subtotal"></span></h3>
+            <h3 style="color: aliceblue;">Shipping:<span id="shippingCost"></span></h3>
+            <h3 style="color: aliceblue;">Total:<span id="totalCost"></span></h3>
+            <br>
+            <button type="submit" class="btn btn-primary" style="margin-bottom: 2em;">Proceed to checkout</button>
+
+          </div>
 
         </div>
 
-        <!-- confirmation of order -->
-        <div class="row"></div>
       </div>
 
     </div>
-
-  </div>
 
 </body>
 

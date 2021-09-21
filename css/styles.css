@@ -58,6 +58,12 @@ ul {
   padding-bottom: 2em;
   color: aliceblue;
 }
+.col-md{
+  background-color: greenyellow;
+  margin-left: 2em;
+  border-radius: 10px;
+  height: fit-content;
+}
 
 /* product description section */
 .img-desc{
