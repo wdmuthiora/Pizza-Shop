@@ -61,7 +61,6 @@ $(document).ready(function () {
   })
 })
 
-
 //pizza8
 $(document).ready(function () {
   $("#pizza8").hover(function () {
@@ -70,7 +69,6 @@ $(document).ready(function () {
     $(this).css("opacity", "1.0");
   })
 })
-
 
 // corousel section
 $(document).ready(function () {
@@ -107,3 +105,8 @@ $(document).ready(function () {
   });
 });
 // end of corousel section
+
+
+$(document).ready(function () {
+  $()
+})

@@ -16,6 +16,7 @@ body {
 }
 .col-sm-6 {
   height: 35em;
+  background-color: green;
 }
 #landing-right {
   background-image: url("../images/assets/backgrounds/pizza1.jpg");
@@ -41,12 +42,35 @@ ul {
 /*  */
 /* product description page */
 .prdt-desc {
-  border: orange solid 2px;
   height: 40em;
 }
-.col-sm-6 {
-  background-color: green;
-}
+
 .row{
   width: 100%;
+}
+
+/*  */
+/* checkout section */
+#personal-info{
+  height: fit-content;
+  border-radius: 10px;
+  padding-top: 1.5em;
+  padding-bottom: 2em;
+  color: aliceblue;
+}
+
+/* product description section */
+.img-desc{
+  width: 555px;
+  height: 555px;
+  display: flex;
+  flex-shrink: 1;
+  flex-grow: 1;
+}
+.desc {
+  padding: 2em;
+  margin-left: 2em;
+}
+.selection{
+  margin-left: 2em;
 }
