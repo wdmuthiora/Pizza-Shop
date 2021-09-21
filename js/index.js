@@ -70,3 +70,40 @@ $(document).ready(function () {
     $(this).css("opacity", "1.0");
   })
 })
+
+
+// corousel section
+$(document).ready(function () {
+  // Activate the Carousel, but pause it from the start
+  $("#myCarousel").carousel("pause");
+
+  // Go to the second item
+  $("#myBtn").click(function () {
+    $("#myCarousel").carousel(1);
+  });
+
+  // Go to the third item
+  $("#myBtn2").click(function () {
+    $("#myCarousel").carousel(2);
+  });
+
+  // Enable Carousel Indicators
+  $(".item1").click(function () {
+    $("#myCarousel").carousel(0);
+  });
+  $(".item2").click(function () {
+    $("#myCarousel").carousel(1);
+  });
+  $(".item3").click(function () {
+    $("#myCarousel").carousel(2);
+  });
+
+  // Enable Carousel Controls
+  $(".carousel-control-prev").click(function () {
+    $("#myCarousel").carousel("prev");
+  });
+  $(".carousel-control-next").click(function () {
+    $("#myCarousel").carousel("next");
+  });
+});
+// end of corousel section
