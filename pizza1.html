@@ -2,7 +2,7 @@
 <html>
 
 <head>
-  <title>Product Description</title>
+  <title>Pizza1</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="author" content="Dennis Muthiora">
   <meta name="description" content="Pizza Shop">
@@ -23,6 +23,7 @@
 
 <body>
   <div class="container" style="position: relative; top: 85px;">
+   
     <!-- navigation bar -->
     <div class="nav-bar justify-content-center fixed-top">
       <a href="./index.html">Home</a>
@@ -51,11 +52,11 @@
           <div class="row">
             <p style="padding-left: 3em; padding-right: 1em;">Select size:</p>
             <form">
-              <select id="select-size">
-                <option class="dropdown-item" value="1" selected="selected">Extra-large</option>
-                <option class="dropdown-item" value="2">Large</option>
-                <option class="dropdown-item" value="3">Medium</option>
-                <option class="dropdown-item" value="4">Small</option>
+              <select id="select-size" class="select-size">
+                <option class="dropdown-item" value="Extra-large" selected="selected">Extra-large</option>
+                <option class="dropdown-item" value="Large">Large</option>
+                <option class="dropdown-item" value="Medium">Medium</option>
+                <option class="dropdown-item" value="Small">Small</option>
               </select>
               </form>
           </div>
@@ -65,10 +66,10 @@
             <form">
               <select id="select-topping">
                 <option class="dropdown-item" value="0" selected="selected">None</option>
-                <option class="dropdown-item" value="1">Topping1</option>
-                <option class="dropdown-item" value="2">Topping2</option>
-                <option class="dropdown-item" value="3">Topping3</option>
-                <option class="dropdown-item" value="4">Topping4</option>
+                <option class="dropdown-item" value="Topping1">Topping1</option>
+                <option class="dropdown-item" value="Topping2">Topping2</option>
+                <option class="dropdown-item" value="Topping3">Topping3</option>
+                <option class="dropdown-item" value="Topping4">Topping4</option>
               </select>
               </form>
           </div>
@@ -83,7 +84,7 @@
 
           <!-- confirmation button -->
           <div class="row">
-            <button type="submit" class="btn btn-primary" style="margin-left: auto; margin-right: auto;">Confirm
+            <button type="submit" class="btn btn-primary confirm-order" style="margin-left: auto; margin-right: auto;">Confirm
               order</button>
           </div>
         </div>

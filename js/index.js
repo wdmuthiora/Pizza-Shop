@@ -109,5 +109,10 @@ $(document).ready(function () {
 
 
 // get user inputs.
+(document).ready(function (){
+  $(".confirm-order").click(function (){
+    alert("alive") 
+  })
+})
 
 // BUSINESS LOGIC
