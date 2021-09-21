@@ -1,29 +1,28 @@
-html{
+html {
   text-align: center;
 }
 
-.nav-bar{
+.nav-bar {
   padding: 0.5em;
   background-color: black;
   font-size: 1.2em;
-
 }
-.nav-bar a{
+.nav-bar a {
   padding: 0.5em;
   display: inline-block;
 }
-body{
+body {
   width: 100%;
 }
-.col-sm-6{
+.col-sm-6 {
   height: 35em;
 }
-#landing-right{
+#landing-right {
   background-image: url("../images/assets/backgrounds/pizza1.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
-#intro{
+#intro {
   position: relative;
   top: 40px;
   text-align: justify;
@@ -33,8 +32,21 @@ ul {
   margin: 0;
   padding: 0;
 }
- /* Make the image fully responsive */
-  .carousel-inner img {
-    width: 100%;
-    height: 100%;
-  }
+/* Make the image fully responsive */
+.carousel-inner img {
+  width: 100%;
+  height: 100%;
+}
+
+/*  */
+/* product description page */
+.prdt-desc {
+  border: orange solid 2px;
+  height: 40em;
+}
+.col-sm-6 {
+  background-color: green;
+}
+.row{
+  width: 100%;
+}

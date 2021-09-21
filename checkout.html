@@ -19,12 +19,10 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
   <script src="../js/index.js"></script>
-
-
 </head>
 
 <body>
-  <div class="container">
+  <div class="container" style="position: relative; top: 85px;">
     <!-- navigation bar -->
     <div class="nav-bar justify-content-center fixed-top">
       <a href="#home">Home</a>
@@ -32,7 +30,52 @@
       <a href="#checkout">Checkout</a>
 
     </div>
+
+    <!-- Checkout section -->
+    <h2>Checkout</h2>
+
+    <div class="row">
+
+      <!-- Personal/ Delivery information area -->
+
+      <div class="col-sm-6">
+        <form action="/action_page.php" class="was-validated">
+          <div class="form-group">
+
+            <!-- email  -->
+            <label for="email" class="mr-sm-2">Email address:</label>
+            <input type="email" class="form-control mb-2 mr-sm-2" placeholder="Enter email" id="email">
+
+            <!-- password -->
+            <label for="pwd" class="mr-sm-2">Password:</label>
+            <input type="password" class="form-control mb-2 mr-sm-2" placeholder="Enter password" id="pwd">
+
+            <!-- street address -->
+            <label for="steetAddress" class="mr-sm-2">Street address:</label>
+            <input type="text" class="form-control mb-2 mr-sm-2" placeholder="Enter street address" id="streetAddress">
+
+            <!-- town/city -->
+            <label for="town-city" class="mr-sm-2">Town/ City:</label>
+            <input type="text" class="form-control mb-2 mr-sm-2" placeholder="Enter town/city" id="town-city">
+
+            <!-- phone -->
+            <label for="phone" class="mr-sm-2">Phone number:</label>
+            <input type="number" class="form-control mb-2 mr-sm-2" placeholder="Phone" id="phone">
+
+          </div>
+        </form>
+      </div>
+
+      <!-- Summary of Order/ Payment Options-->
+
+      <div class="col-md-6">
+
+      </div>
+
+    </div>
+
   </div>
+
 </body>
 
 </html>
