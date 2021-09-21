@@ -107,6 +107,3 @@ $(document).ready(function () {
 // end of corousel section
 
 
-$(document).ready(function () {
-  $()
-})
